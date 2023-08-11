@@ -27,19 +27,44 @@ export default function Page() {
             <p>Take control with a fully decentralized platform.</p>
           </div>
         </section>
+        
+        <section className={styles.testimonials}>
+          <h2>What Our Users Say</h2>
+          <div className={styles.testimonialCard}>
+            <div className={styles.testimonialCardContent}>
+              <p>"CryptoWave has transformed the way I trade and manage my cryptocurrencies. The platform is intuitive and secure!"</p>
+              <p className={styles.testimonialAuthor}>- Jane Doe, Cryptocurrency Enthusiast</p>
+            </div>
+          </div>
+          <div className={styles.testimonialCard}>
+            <div className={styles.testimonialCardContent}>
+              <p>"I'm impressed with the speed and efficiency of transactions on CryptoWave. It's a game-changer!"</p>
+              <p className={styles.testimonialAuthor}>- John Smith, Blockchain Developer</p>
+            </div>
+          </div>
+        </section>
       </main>
       
-<footer className={styles.footer}>
-  <div className={styles.footerContent}>
-    <p>&copy; 2023 CryptoWave. All rights reserved.</p>
-    <div className={styles.footerLinks}>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Service</a>
-      <a href="#">Contact Us</a>
-    </div>
-  </div>
-</footer>
-
+      <footer className={styles.footer}>
+        <div className={styles.footerContent}>
+          <div className={styles.footerSocial}>
+            <a href="#" className={styles.socialIcon}>
+              <img src="/facebook-icon.png" alt="Facebook" />
+            </a>
+            <a href="#" className={styles.socialIcon}>
+              <img src="/twitter-icon.png" alt="Twitter" />
+            </a>
+            <a href="#" className={styles.socialIcon}>
+              <img src="/instagram-icon.png" alt="Instagram" />
+            </a>
+          </div>
+          <div className={styles.footerLinks}>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
