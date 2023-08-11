@@ -28,9 +28,18 @@ export default function Page() {
           </div>
         </section>
       </main>
-      <footer className={styles.footer}>
-        <p>Powered by CryptoWave</p>
-      </footer>
+      
+<footer className={styles.footer}>
+  <div className={styles.footerContent}>
+    <p>&copy; 2023 CryptoWave. All rights reserved.</p>
+    <div className={styles.footerLinks}>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 }
