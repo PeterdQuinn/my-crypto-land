@@ -60,13 +60,22 @@
 
 /* ... existing styles ... */
 
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+}
+
+
+
 .footer {
   background-color: #222; /* Change background color */
   color: #fff;
   text-align: center;
-  padding: 40px 0; /* Increased padding */
-  width: 100%; /* Extend width across the bottom */
-  position: absolute;
+  padding: 40px 0;
+  width: 100%;
+  position: sticky;
   bottom: 0;
 }
 
