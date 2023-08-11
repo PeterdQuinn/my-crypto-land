@@ -1,108 +1,87 @@
-/* Global Styles */
 .container {
   font-family: 'Inter', sans-serif;
-  background-color: #E5E5E5;
-  color: #0A1F44;
-  padding: 20px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
 }
 
-/* Hero Section */
-.hero {
-  background-color: #0A1F44;
-  color: #D4AF37;
-  padding: 100px 0; /* Increased vertical padding */
+.header {
+  background-color: #282c34;
+  padding: 60px 0;
   text-align: center;
-  width: 100%; /* Ensures it spans the full width */
+  width: 100%;
 }
 
-.hero h1 {
-  font-size: 3.5rem; /* Increased font size for the title */
-  margin-bottom: 30px;
+.header h1 {
+  color: #61dafb;
+  font-size: 2.5rem;
 }
 
-.hero p {
-  font-size: 1.5rem; /* Increased font size for the subtitle */
-  margin-bottom: 40px;
+.header p {
+  color: white;
+  font-size: 1.2rem;
 }
 
-.hero .cta {
-  background-color: #D4AF37;
-  color: #0A1F44;
-  padding: 15px 30px; /* Increased padding for the button */
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-size: 1.2rem; /* Increased font size for the button */
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
-.hero .cta:hover {
-  background-color: #b8962f;
-}
-
-
-/* Features Section */
 .features {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 50px 0;
   width: 100%;
-  max-width: 1200px;
-  margin: 50px 0;
-  gap: 30px; /* This will add spacing between each feature box */
 }
 
-.feature {
-  flex: 1;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.featureCard {
   text-align: center;
-  margin: 0 15px; /* Additional margin for separation */
-}
-
-.feature h2 {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
-
-
-/* Testimonials Section */
-.testimonials {
-  width: 100%;
-  max-width: 800px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.testimonial {
-  background-color: #fff;
+  width: 20%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px;
 }
 
-/* Footer */
+.featureCard h2 {
+  color: #333;
+}
+
+.featureCard p {
+  color: #777;
+}
+
 .footer {
+  padding: 20px 0;
+  text-align: center;
   width: 100%;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 0;
 }
 
-.links a {
-  margin-right: 20px;
-  color: #0A1F44;
-  text-decoration: none;
-  transition: color 0.3s ease;
+/* Custom cursor styles */
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #61dafb;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
 }
 
-.links a:hover {
-  color: #D4AF37;
+/* Dark and Light theme styles */
+.theme-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.theme-dark {
+  background-color: #333;
+  color: #f4f4f4;
 }

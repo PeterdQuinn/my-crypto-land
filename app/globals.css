@@ -1,6 +1,7 @@
-/* styles/global.css */
+
+
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
 }
+
