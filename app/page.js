@@ -27,7 +27,26 @@ export default function Page() {
             <p>Take control with a fully decentralized platform.</p>
           </div>
         </section>
+
         
+
+
+
+        <section className={styles.educationalResources}>
+        <h2>Educational Resources</h2>
+        <p>Explore our curated collection of articles, videos, and guides on cryptocurrencies and blockchain technology.</p>
+        <div className={styles.resourcesGrid}>
+          <div className={styles.resourceCard}>
+            <img src="/public/1.jpeg" alt="Article 1" />
+            <h3>Introduction to Cryptocurrencies</h3>
+            <p>A beginner's guide to understanding the world of digital currencies.</p>
+          </div>
+          {/* ... more resource cards ... */}
+        </div>
+      </section>
+         
+
+
         <section className={styles.testimonials}>
           <h2>What Our Users Say</h2>
           <div className={styles.testimonialCard}>
