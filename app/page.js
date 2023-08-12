@@ -3,6 +3,20 @@ import styles from './page.module.css';
 
 export default function Page() {
   return (
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     <div className={styles.container}>
       <header className={styles.header}>
         <h1>CryptoWave</h1>
@@ -29,6 +43,24 @@ export default function Page() {
         </section>
 
         
+
+        <section className={styles.infoBoxes}>
+        <div className={styles.box}>
+          <h3>Secure Transactions</h3>
+          <p>Our platform uses advanced encryption methods to ensure your transactions are safe and secure.</p>
+        </div>
+        <div className={styles.box}>
+          <h3>Real-time Data</h3>
+          <p>Stay updated with real-time cryptocurrency prices and trends on our platform.</p>
+        </div>
+        <div className={styles.box}>
+          <h3>User-Friendly Interface</h3>
+          <p>With an intuitive design, our platform is easy to navigate even for crypto beginners.</p>
+        </div>
+      </section>
+
+
+
 
 
 
