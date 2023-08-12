@@ -1,7 +1,3 @@
-Certainly! Here's a README for your project:
-
----
-
 # CryptoWave - A Cryptocurrency Landing Page
 
 Welcome to CryptoWave, a sleek and modern landing page designed for showcasing cryptocurrency and blockchain technology. This project is built using React and Next.js, and offers a responsive design that looks great on both desktop and mobile devices.
@@ -54,7 +50,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
----
-
-This README provides a basic overview of the project, instructions for getting started, customization tips, and other essential details. Adjustments can be made based on specific requirements or additional sections you'd like to include.
